@@ -16,7 +16,7 @@ class SetPinCodePage extends StatefulWidget {
 
 class _SetPinCodePageState extends State<SetPinCodePage> {
   String _pinCode = "";
-  final int _pinLength = 6;
+  final int _pinLength = 4;
   
   void _addNumberToPin(String number) {
     if (_pinCode.length + number.length <= _pinLength) {

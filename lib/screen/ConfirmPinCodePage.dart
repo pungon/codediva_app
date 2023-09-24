@@ -20,7 +20,7 @@ class ConfirmPinCodePage extends StatefulWidget {
 class _ConfirmPinCodePageState extends State<ConfirmPinCodePage> {
 
   String _pinCode = "";
-  final int _pinLength = 6;
+  final int _pinLength = 4;
   
   late final LocalAuthentication auth;
    
